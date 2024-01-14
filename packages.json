@@ -4,7 +4,8 @@
         "easy": {
             "version": "1.01",
             "pkg_url": "https://github.com/xKotelek/easy/raw/main/easy.zip",
-            "install_script": "powershell Start-Process -FilePath .\\easy.exe"
+            "install_script": "powershell Start-Process -FilePath .\\easy.zip",
+            "uninstall_script": "echo UNINSTALLED"
         }
     }
 }
